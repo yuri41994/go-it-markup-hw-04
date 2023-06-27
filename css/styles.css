@@ -27,17 +27,26 @@ ul {
 /*variables*/
 
 :root {
-    /*colors*/
-    --primary-brand-color: #4d5ae5;
-    --body-text-color: #434455;
-    --dark-color: #2e2f42;
-    --white-color: #ffffff;
-    --accent-color: #e7e9fc;
-    --pressed-state-color: #404bbf;
-    --light-color: #f4f4fd;
-    /*font-families*/
-    --primary-font-family: 'Roboto', sans-serif;
-    --logo-font-family: 'Raleway', sans-serif;
+--color-heder-link: #2e2f42;
+    --color-heder-link-ahf: #404bbf;
+    --color-main-text: #434455;
+    --bg-color-btn: #4d5ae5;
+    --bg-color-btn-hf: #404bbf;
+    --border-color: #e7e9fc;
+    --bg-main-color: #f4f4fd;
+    --bg-body-color: #ffffff;
+    --color-main-title: #ffffff;
+    --color-btn-text: #ffffff;
+    --color-footer-logo: #f4f4fd;
+    --color-footer-paragraf: #f4f4fd;
+    --color-overlay-text: #f4f4fd;
+    --color-social-paragraf: #ffffff;
+    --bg-overlay-text: #4d5ae5;
+    --bg-callback-form: #fcfcfc;
+    --bg-modal-box: rgba(46, 47, 66, 0.4);
+    --bg-social-link-hover: #31d0aa;
+    --fill-icon-customer: #8e8f99;
+    --fill-icon-customer-hover: #404bbf;
 }
 
 /*base styles*/
@@ -321,15 +330,18 @@ justify-content: center;
 color: var(--fill-icon-customer);
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers-card .cliens-link:hover,
-.customers-card .cliens-link:focus,
-.customers-card .cliens-link:active{
+
+.customers-card .cliens-link .clients-icon:hover,
+.customers-card .cliens-link .clients-icon:focus,
+.customers-card .cliens-link .clients-icon:active{
     border-color: var(--fill-icon-customer-hover);
     color: var(--fill-icon-customer-hover);
 }
 
 .clients-icon {
     margin: 16px 32px;
+    fill: currentColor;
+    
 }
 /*portfolio.html section styles*/
 
