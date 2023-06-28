@@ -503,7 +503,7 @@ footer .paragraf {
 }
     
 .footer-social-links-box a:focus {
-    background-color: var(--bg-color-btn-hf);
+    background-color: var(--bg-social-link-hover);
     border: none    ;
 }
 
